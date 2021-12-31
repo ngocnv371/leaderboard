@@ -70,3 +70,7 @@ redisClient.zAdd('leaderboard', { score: newlyEarnedPoints, value: userId}, { IN
 This is not meant for a small product, if you have less than a few hundred thousands users, don't bother.
 
 This is expensive (relatively), just looks at the standard hosting plan for Redis could make you cry.
+
+## Credits
+
+This is implemented based on this [article](https://levelup.gitconnected.com/how-we-created-a-real-time-leaderboard-for-a-million-users-555aaa3ccf7b).
