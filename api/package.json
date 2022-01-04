@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src --watch",
+    "start": "nodemon src",
     "migrate": "node-pg-migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,8 @@
     "node-pg-migrate": "^6.2.0",
     "pg-promise": "^10.11.1",
     "redis": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
